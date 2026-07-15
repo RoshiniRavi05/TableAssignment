@@ -72,7 +72,7 @@ public class Table {
                 System.out.print("----+");
             }
             System.out.println();
-            System.out.printf("%02d |", i);
+           System.out.printf("%02d |", i);
             for(int j=0;j<n;j++) {
                 if(arr[i][j]==x) {
                     System.out.printf("[%2d]|", arr[i][j]);
@@ -88,6 +88,6 @@ public class Table {
             System.out.print("----+");
         }
         System.out.println();
-        System.out.println("\nNumber " + x + " appeared " + count + " time(s)");
+        System.out.println("\nNumber "+x+" appeared "+count+" time(s)");
     }
 }
